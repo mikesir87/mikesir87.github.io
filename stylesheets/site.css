@@ -48,6 +48,7 @@ section.customBg {
   background-position: 50% 50%;
   background-repeat: none;
   background-size: cover;
+  background-color: #333;
 }
 
 section .credits {
@@ -113,6 +114,8 @@ section.security a {
 }
 
 .slightlyTinted {
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: rgba(0,0,0,.4);
 }
 
