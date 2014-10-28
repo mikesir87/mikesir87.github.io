@@ -1,0 +1,125 @@
+a.btn.btn-primary {
+  color: white !important;
+}
+
+img.face {
+  border-radius: 50px;
+}
+
+#header {
+  background-color: #008cba;
+  color: white;
+  margin-bottom: 0px;
+}
+
+#header .jumbotron {
+  background-color: transparent;
+  margin-bottom: 0px;
+}
+
+#header ul.list-inline li {
+  padding-bottom: 10px;
+}
+
+
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  min-height: 800px;
+  position: relative;
+  color: white;
+}
+
+section h2 {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.subsection {
+  margin-bottom: 30px;
+}
+
+.subsection h4 {
+
+}
+
+section.customBg {
+  background-position: 50% 50%;
+  background-repeat: none;
+  background-size: cover;
+}
+
+section .credits {
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  right: 0px;
+}
+
+section.education {
+  background-image: url(../images/vtcampus.jpg);
+  background-position: bottom right;
+  color: white;
+  text-shadow: 0 0 5px black;
+  padding-top: 80px;
+}
+
+section.education a {
+  color: orange;
+}
+
+section.workExperience {
+  background-color: #358753;
+  color: white;
+}
+
+h2 small {
+  color: #eee;
+}
+
+section.workExperience a {
+  color: orange;
+}
+
+section.freelancingWork {
+  background-color: #31b0d5;
+}
+
+section.opensource {
+  background-image: url(../images/mountains.jpg);
+}
+
+section.opensource a {
+  color: orange;
+}
+
+section.opensource a.btn {
+  color: white;
+}
+
+section.security {
+  background-color: #e99002;
+}
+
+section.security a {
+  color: black;
+}
+
+.sectionIntro {
+  font-size: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.slightlyTinted {
+  background-color: rgba(0,0,0,.4);
+}
+
+blockquote {
+  margin-left: 25px;
+}
+
+blockquote, blockquote footer {
+  color: white;
+}
