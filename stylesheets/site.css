@@ -21,6 +21,10 @@ img.face {
   padding-bottom: 10px;
 }
 
+#header p {
+  margin-bottom: 2em;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
 
 section {
   padding-top: 40px;
