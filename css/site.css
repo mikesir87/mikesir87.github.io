@@ -65,6 +65,8 @@ section .credits {
 section.education {
   background-image: url(../images/vtcampus.jpg);
   background-position: bottom right;
+  background-repeat: no-repeat;
+  background-color: #000;
   color: white;
   text-shadow: 0 0 5px black;
   padding-top: 80px;
