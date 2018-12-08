@@ -1,3 +1,19 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin-bottom: .8em;
+}
+
+.no-border-bottom {
+  border-bottom: none;
+}
+
 a.btn.btn-primary {
   color: white !important;
 }
@@ -7,9 +23,15 @@ img.face {
 }
 
 #header {
-  background-color: #008cba;
-  color: white;
-  margin-bottom: 0px;
+  background-color: white;
+  color: black;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#header img {
+  max-height: 500px;
 }
 
 #header .jumbotron {
@@ -23,29 +45,26 @@ img.face {
 
 #header p {
   margin-bottom: 2em;
-  text-shadow: 1px 1px 1px rgba(0,0,0,.3);
 }
 
 section {
   padding-top: 40px;
   padding-bottom: 40px;
-  min-height: 800px;
   position: relative;
-  color: white;
+  border-bottom: 1px dotted #ccc;
+}
+
+section:last-of-type {
+  border-bottom: none;
 }
 
 section h2 {
   padding-bottom: 8px;
-  border-bottom: 1px solid #ddd;
   margin-bottom: 20px;
 }
 
 .subsection {
   margin-bottom: 30px;
-}
-
-.subsection h4 {
-
 }
 
 section.customBg {
@@ -131,4 +150,109 @@ blockquote {
 
 blockquote, blockquote footer {
   color: white;
+}
+
+
+
+/* New theme */
+
+section#header + section {
+  border-top: 2px dotted #ccc;
+  margin-top: -25px;
+  padding-top: 65px;
+}
+
+#family-photo {
+  box-shadow: 0px 0px 2em #ccc;
+  border: 1px solid #ccc;
+  transition: .2s ease-in;
+}
+
+#family-photo:hover {
+  box-shadow: 0px 0px 2em #aaa;
+}
+
+.grid-divider {
+  overflow-x: hidden;
+  position: relative;
+}
+
+.grid-divider > [class*="col-"]:nth-child(n + 2):after {
+  content: "";
+  background-color: #ccc;
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+}
+
+.grid-divider > [class*="col-"] {
+  padding-bottom: 20px;
+}
+
+footer {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: .6em;
+}
+
+footer .container {
+  padding-top: 15px;  
+  border-top: 1px solid #eee;
+}
+
+@media (max-width: 767px) {
+  .grid-divider > [class*="col-"]:nth-child(n + 2):after {
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: -4px;
+  }
+
+  #header {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  section { padding-top: 0 !important; }
+
+  section#header + section {
+    border-top: none;
+  }
+
+  h2, h3 {
+    text-align: center;
+    margin-top: 65px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .grid-divider > [class*="col-"]:nth-child(n + 2):after {
+    width: 1px;
+    height: auto;
+    left: -1px;
+  }
+
+  section#header + section {
+    margin-top: -15px;
+  }
+}
+
+@media (min-width: 992px) {
+  section#header + section {
+    margin-top: -20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  section#header + section {
+    margin-top: -25px;
+  }
+}
+
+.post-listing {
+  font-size: 16px;
+}
+.post-listing .metadata {
+  font-size: .8em;
 }
