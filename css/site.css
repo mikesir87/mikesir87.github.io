@@ -1,13 +1,17 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 20px;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
   margin-bottom: .8em;
+}
+
+h4 {
+  font-weight: 400;
 }
 
 .no-border-bottom {
