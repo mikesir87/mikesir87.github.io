@@ -166,16 +166,6 @@ section#header + section {
   padding-top: 65px;
 }
 
-#family-photo {
-  box-shadow: 0px 0px 2em #ccc;
-  border: 1px solid #ccc;
-  transition: .2s ease-in;
-}
-
-#family-photo:hover {
-  box-shadow: 0px 0px 2em #aaa;
-}
-
 .grid-divider {
   overflow-x: hidden;
   position: relative;
@@ -259,4 +249,14 @@ footer .container {
 }
 .post-listing .metadata {
   font-size: .8em;
+}
+
+.img-shadow {
+  box-shadow: 0px 0px 2em #ccc;
+  border: 1px solid #ccc;
+  transition: .2s ease-in;
+}
+
+.img-shadow:hover {
+  box-shadow: 0px 0px 2em #aaa;
 }
