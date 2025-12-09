@@ -260,3 +260,7 @@ footer .container {
 .img-shadow:hover {
   box-shadow: 0px 0px 2em #aaa;
 }
+
+ul li {
+  margin-bottom: 1em;
+}
